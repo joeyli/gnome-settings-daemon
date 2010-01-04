@@ -14,5 +14,31 @@
 		</long>
             </locale>
         </schema>
+	<schema>
+	    <key>/schemas/apps/gnome_settings_daemon/xrandr/turn_on_vga_after_boot</key>
+	    <applyto>/apps/gnome_settings_daemon/xrandr/turn_on_vga_after_boot</applyto>
+            <owner>gnome</owner>
+	    <type>bool</type>
+            <default>false</default>
+            <locale name="C">
+	        <short>Turn on VGA after system boot</short>
+                <long>Turn on VGA (external monitor) after system boot if user plugin
+		external monitor when system boot.
+		</long>
+            </locale>
+        </schema>
+	<schema>
+	    <key>/schemas/apps/gnome_settings_daemon/xrandr/turn_on_lvds_after_boot</key>
+	    <applyto>/apps/gnome_settings_daemon/xrandr/turn_on_lvds_after_boot</applyto>
+            <owner>gnome</owner>
+	    <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+	        <short>Turn on LVDS after system boot</short>
+                <long>Turn on LVDS (default monitor) after system boot if user plugin
+		external monitor when system boot.
+		</long>
+            </locale>
+        </schema>
     </schemalist>
 </gconfschemafile>

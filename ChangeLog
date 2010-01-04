@@ -1,3 +1,7 @@
+2009-12-22 Joey Lee <jlee@novell.com>
+	* plugins/xrandr/gsd-xrandr-manager.
+	Add the feature to setup the default boot video mode.
+
 2008-08-03  C de-Avillez <hggdh2@ubuntu.com>
 
 	* plugins/mouse/gsd-mouse-manager.c: add '-k' to syndaemon
